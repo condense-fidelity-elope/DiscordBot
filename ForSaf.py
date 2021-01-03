@@ -2,7 +2,7 @@ import discord, math, requests, random, time
 from discord.ext import commands
 from datetime import datetime
 
-client_token = "NzY5NzE0OTc3MzAwMjgzNDEx.X5TC7w.O6SrhG11aqPRohOW68oxIGlqS3U"
+client_token = ""
 client_hexcolor = 0xF88379
 
 client = commands.Bot(command_prefix="sheeb ")
