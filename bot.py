@@ -2,10 +2,10 @@ import discord, math, requests, random, time
 from discord.ext import commands
 from datetime import datetime
 
-client_token = ""
+client_token = "put your token here"
 client_hexcolor = 0xF88379
 
-client = commands.Bot(command_prefix="sheeb ")
+client = commands.Bot(command_prefix="prefix goes here ")
 
 async def getReddit(subreddit):
     size = 1
